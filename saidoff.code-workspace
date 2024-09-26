@@ -1,0 +1,29 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../allll/mywork/justfuckingwork/SaidoffGroup/service_app"
+		},
+		{
+			"path": "../../allll/mywork/justfuckingwork/SaidoffGroup/static"
+		},
+		{
+			"path": "../../allll/mywork/justfuckingwork/SaidoffGroup/.venv"
+		},
+		{
+			"path": "../../allll/mywork/justfuckingwork/SaidoffGroup/config"
+		},
+		{
+			"path": "../../allll/mywork/justfuckingwork/SaidoffGroup/locale"
+		},
+		{
+			"path": "../../allll/mywork/justfuckingwork/SaidoffGroup/main_app"
+		},
+		{
+			"path": "../../allll/mywork/justfuckingwork/SaidoffGroup/media"
+		}
+	],
+	"settings": {}
+}

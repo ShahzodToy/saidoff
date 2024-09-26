@@ -1,0 +1,135 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-26 13:03+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: .\main_app\models.py:9
+msgid "WhyUs"
+msgstr "Вайус"
+
+#: .\main_app\models.py:21
+msgid "Partner"
+msgstr "Партнер"
+
+#: .\main_app\models.py:22
+msgid "Partners"
+msgstr "Партнеры"
+
+#: .\main_app\models.py:35
+msgid "Team"
+msgstr "Команда"
+
+#: .\main_app\models.py:36
+msgid "Teams"
+msgstr "Команды"
+
+#: .\main_app\models.py:47
+msgid "Subscribe"
+msgstr "Подписаться"
+
+#: .\main_app\models.py:48
+msgid "Subscribes"
+msgstr "Подписывается"
+
+#: .\main_app\models.py:58
+msgid "Certificate"
+msgstr "Сертификат"
+
+#: .\main_app\models.py:59
+msgid "Certificates"
+msgstr "Сертификаты"
+
+#: .\main_app\models.py:71
+msgid "FeedBack"
+msgstr "Обратная связь"
+
+#: .\main_app\models.py:72
+msgid "FeedBacks"
+msgstr "Отзывы"
+
+#: .\main_app\models.py:82
+msgid "FAQCategory"
+msgstr "FAQCategory"
+
+#: .\main_app\models.py:83
+msgid "FAQCategorys"
+msgstr "Faqcategorys"
+
+#: .\main_app\models.py:94
+msgid "FAQ"
+msgstr "Часто задаваемые вопросы"
+
+#: .\main_app\models.py:95
+msgid "FAQs"
+msgstr "Часто задаваемые вопросы"
+
+#: .\main_app\models.py:104
+msgid "Feature"
+msgstr "Особенность"
+
+#: .\main_app\models.py:105
+msgid "Features"
+msgstr "Функции"
+
+#: .\main_app\models.py:118
+msgid "PricePlan"
+msgstr "Навык"
+
+#: .\main_app\models.py:119
+msgid "PricePlans"
+msgstr "Прайсплос"
+
+#: .\service_app\models.py:9
+msgid "Service"
+msgstr "Услуга"
+
+#: .\service_app\models.py:10
+msgid "Services"
+msgstr "Услуги"
+
+#: .\service_app\models.py:22
+msgid "ServiceDescription"
+msgstr "Обслуживает"
+
+#: .\service_app\models.py:23
+msgid "ServiceDescriptions"
+msgstr "Обслуживаемые резик"
+
+#: .\service_app\models.py:37
+msgid "Order"
+msgstr "Заказ"
+
+#: .\service_app\models.py:38
+msgid "Orders"
+msgstr "Приказ"
+
+#: .\service_app\models.py:50
+msgid "Portfolio"
+msgstr "Портфель"
+
+#: .\service_app\models.py:51
+msgid "Portfolios"
+msgstr "Портфели"
+
+#: .\service_app\models.py:60
+msgid "Tag"
+msgstr "Ярлык"
+
+#: .\service_app\models.py:61
+msgid "Tags"
+msgstr "Теги"

@@ -1,0 +1,135 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-26 13:03+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: .\main_app\models.py:9
+msgid "WhyUs"
+msgstr "NegaBiz"
+
+#: .\main_app\models.py:21
+msgid "Partner"
+msgstr "Sherik"
+
+#: .\main_app\models.py:22
+msgid "Partners"
+msgstr "Sheriklar"
+
+#: .\main_app\models.py:35
+msgid "Team"
+msgstr "Jamoa"
+
+#: .\main_app\models.py:36
+msgid "Teams"
+msgstr "Jamoalar"
+
+#: .\main_app\models.py:47
+msgid "Subscribe"
+msgstr "Obuna bo'lish"
+
+#: .\main_app\models.py:48
+msgid "Subscribes"
+msgstr "Obuna"
+
+#: .\main_app\models.py:58
+msgid "Certificate"
+msgstr "Guvohnoma"
+
+#: .\main_app\models.py:59
+msgid "Certificates"
+msgstr "Sertifikatlar"
+
+#: .\main_app\models.py:71
+msgid "FeedBack"
+msgstr "Fikr-mulohaza"
+
+#: .\main_app\models.py:72
+msgid "FeedBacks"
+msgstr "Qayta aloqa"
+
+#: .\main_app\models.py:82
+msgid "FAQCategory"
+msgstr "Faqkuctory"
+
+#: .\main_app\models.py:83
+msgid "FAQCategorys"
+msgstr "Faqkuratlar"
+
+#: .\main_app\models.py:94
+msgid "FAQ"
+msgstr "TSS"
+
+#: .\main_app\models.py:95
+msgid "FAQs"
+msgstr "FAQlar"
+
+#: .\main_app\models.py:104
+msgid "Feature"
+msgstr "O'ziga xos xususiyat"
+
+#: .\main_app\models.py:105
+msgid "Features"
+msgstr "Xususiyatlari"
+
+#: .\main_app\models.py:118
+msgid "PricePlan"
+msgstr "Mahorat"
+
+#: .\main_app\models.py:119
+msgid "PricePlans"
+msgstr "Pripletlar"
+
+#: .\service_app\models.py:9
+msgid "Service"
+msgstr "Xizmat"
+
+#: .\service_app\models.py:10
+msgid "Services"
+msgstr "Xizmatlar"
+
+#: .\service_app\models.py:22
+msgid "ServiceDescription"
+msgstr "Xizmat ko'rsatuvchi"
+
+#: .\service_app\models.py:23
+msgid "ServiceDescriptions"
+msgstr "Xizmat ko'rsatishi"
+
+#: .\service_app\models.py:37
+msgid "Order"
+msgstr "Tartib"
+
+#: .\service_app\models.py:38
+msgid "Orders"
+msgstr "Buyruqlar"
+
+#: .\service_app\models.py:50
+msgid "Portfolio"
+msgstr "Portfel"
+
+#: .\service_app\models.py:51
+msgid "Portfolios"
+msgstr "Portfellar"
+
+#: .\service_app\models.py:60
+msgid "Tag"
+msgstr "Yorliq"
+
+#: .\service_app\models.py:61
+msgid "Tags"
+msgstr "Teglar"
