@@ -1,7 +1,7 @@
 from django.test import TestCase
 from rest_framework.test import APITestCase
-from .models import WhyUs ,Team, Subscribe, Certificate,FeedBack,FAQ,FAQCategory
-from .api.serializers import WhyUsSerializer, TeamSerializer, SubscribeSerializer,CertificateSerializer,FeedBackSerializer,FAQCategorySerializer,FAQSerializer
+from .models import WhyUs ,Team, Certificate,FeedBack,FAQ,FAQCategory
+from .api.serializers import WhyUsSerializer, TeamSerializer,CertificateSerializer,FeedBackSerializer,FAQSerializer
 
 
 class WhyUsTestCase(APITestCase):
@@ -45,22 +45,6 @@ class TeamTestCase(APITestCase):
         self.assertEqual(serializer_data['name'],'Shahzod')
         self.assertEqual(serializer_data['image'],'/media/test1.png')
         self.assertEqual(serializer_data['profession'],'data enginer')
-
-class SubscribeTestCase(APITestCase):
-    def setUp(self):
-        self.subscribe = Subscribe.objects.create(
-            full_name = 'shahzod',
-            phone_number = '+99894949494',
-            is_checked = False,
-        )
-
-    def test_subscribe_check(self):
-        serializer = SubscribeSerializer(self.subscribe)
-        serializer_data = serializer.data
-
-        self.assertEqual(serializer_data['full_name'],'shahzod')
-        self.assertEqual(serializer_data['phone_number'],'+99894949494')
-        self.assertEqual(serializer_data['is_checked'],False)
 
 
 class CertificateTestCase(APITestCase):

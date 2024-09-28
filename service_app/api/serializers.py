@@ -8,21 +8,27 @@ class ServiceSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Service
-        fields = ('title',)
+        fields = ('id','title','category_service')
 
+
+class ServiceCategorySerializer(serializers.ModelSerializer):
+
+    class Meta:
+        model = CategoryService
+        fields = ('id','title')
 
 class ServiceDescriptionSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = ServiceDescription
-        fields = ('service','title','description','image')
+        fields = ('id','service','title','description','image')
 
 
 class OrderSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Order
-        fields = '__all__'
+        fields = ('id','name','phone_number','service_name','message','is_checked')
 
     
 class PortfolioSerializer(serializers.ModelSerializer):
@@ -31,10 +37,10 @@ class PortfolioSerializer(serializers.ModelSerializer):
     
     class Meta:
         model = Portfolio
-        fields = ['image', 'url_link', 'service_name','tags']
+        fields = ('id','image', 'url_link', 'service_name','tags')
 
 
 class TagSerializer(serializers.ModelSerializer):
     class Meta:
         model = Tag
-        fields = ('title',)
+        fields = ('id','title')

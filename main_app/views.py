@@ -27,12 +27,6 @@ class TeamView(ListAPIView):
     queryset = Team.objects.all()
 
 
-class SubscribeView(CreateAPIView):
-    permission_classes = (AllowAny,)
-    serializer_class = SubscribeSerializer
-    queryset = Subscribe.objects.all()
-
-
 class CertificateView(ListAPIView):
     permission_classes = (AllowAny,)
     serializer_class = CertificateSerializer

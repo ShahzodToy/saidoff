@@ -4,6 +4,7 @@ from django.utils.translation import gettext_lazy as _
 class WhyUs(models.Model):
     title = models.CharField(max_length=125)
     description = models.TextField()
+    image = models.ImageField(upload_to='whyus')
 
     class Meta:
         verbose_name = _('WhyUs')
@@ -23,7 +24,7 @@ class Partners(models.Model):
         
    
     def __str__(self):
-        return self.id
+        return self.image.name
     
 
 class Team(models.Model):
@@ -38,17 +39,6 @@ class Team(models.Model):
     def __str__(self):
         return self.name
     
-class Subscribe(models.Model):
-    full_name = models.CharField(max_length=125)
-    phone_number = models.CharField(max_length=125)
-    is_checked = models.BooleanField(default=False)
-    created_at = models.DateTimeField(auto_now=True)
-    class Meta:
-        verbose_name = _('Subscribe')
-        verbose_name_plural = _('Subscribes')
-
-    def __str__(self):
-        return self.full_name
     
 class Certificate(models.Model):
     title = models.CharField(max_length=125)

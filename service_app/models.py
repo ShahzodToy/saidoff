@@ -2,8 +2,20 @@ from django.db import models
 from django.utils.translation import gettext_lazy as _
 
 
+class CategoryService(models.Model):
+    title = models.CharField(max_length=125)
+
+    class Meta:
+        verbose_name = _('CategoryService')
+        verbose_name_plural = _('CategoryServices')
+
+    def __str__(self):
+        return self.title
+    
+
 class Service(models.Model):
     title = models.CharField(max_length=125)
+    category_service = models.ForeignKey(CategoryService,on_delete=models.CASCADE,null=True)
 
     class Meta:
         verbose_name = _('Service')
@@ -11,7 +23,8 @@ class Service(models.Model):
 
     def __str__(self):
         return self.title
-    
+
+
 
 class ServiceDescription(models.Model):
     service = models.ForeignKey(Service, on_delete=models.CASCADE, related_name='descriptions')  

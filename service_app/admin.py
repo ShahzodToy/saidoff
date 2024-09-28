@@ -1,8 +1,8 @@
 from django.contrib import admin
-from .models import Service, ServiceDescription, Order, Portfolio, Tag
+from .models import Service, ServiceDescription, Order, Portfolio, Tag, CategoryService
 
 
-for a in [ Order, Portfolio,Tag]:
+for a in [ Order, Portfolio,Tag,CategoryService]:
     admin.site.register(a)
 
 
@@ -16,4 +16,4 @@ class ServiceDescriptionInline(admin.TabularInline):
 @admin.register(Service)
 class ServiceAdmin(admin.ModelAdmin):
     inlines = [ServiceDescriptionInline]
-    list_display = ('title',) 
+    list_display = ('title','category_service') 

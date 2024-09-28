@@ -1,59 +1,53 @@
 from rest_framework import serializers
 from ..models import *
-from django.utils.translation import get_language
+
 
 class WhyUsSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = WhyUs
-        fields = ( 'title','description' )
+        fields = ('id','title','description','image')
 
 
 class PartnersSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Partners
-        fields = "__all__"
+        fields = ('id','image')
 
 class TeamSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Team
-        fields = "__all__"
+        fields = ('id','name','profession','image')
 
-
-class SubscribeSerializer(serializers.ModelSerializer):
-
-    class Meta:
-        model = Subscribe
-        fields = "__all__"
 
 
 class CertificateSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Certificate
-        fields = ('image', 'title','description')
+        fields = ('id','image', 'title','description')
 
 
 class FeedBackSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = FeedBack
-        fields = ('comment','name','image','profession')
+        fields = ('id','comment','name','image','profession')
 
     
 class FAQCategorySerializer(serializers.ModelSerializer):
 
     class Meta:
         model = FAQCategory
-        fields = "__all__"
+        fields = ('id','title')
 
 class FAQSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = FAQ
-        fields = ('faq_page','answer','question')
+        fields = ('id','faq_page','answer','question')
 
 
 
@@ -61,7 +55,7 @@ class PricePlanSerializer(serializers.ModelSerializer):
     
     class Meta:
         model = PricePlan
-        fields = ('title','limit_date','limit_user','features')
+        fields = ('id','title','limit_date','limit_user','features')
 
  
 
@@ -69,4 +63,4 @@ class PricePlanSerializer(serializers.ModelSerializer):
 class FeaturesSerizalizer(serializers.ModelSerializer):
     class Meta:
         model = Feature
-        fields = ('title','tick')
+        fields = ('id','title','tick')
